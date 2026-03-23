@@ -1,1 +1,102 @@
+1. Dashboard / Home Screen
 
+Purpose: Main navigation page.
+
+Include buttons linking to:
+
+Sales
+Merchandise
+Employees
+Expenses
+
+Also display quick summary widgets:
+
+Total Sales
+Total Profit
+Total Expenses
+Number of Employees
+
+Show arrows indicating transitions to other screens.
+
+2. Sales Screen
+
+Display and manage sales records.
+
+Fields to display:
+
+Invoice #
+Purchaser
+Date
+ProductID
+TotalSale
+Total_Profit
+
+Interface elements:
+
+Table showing all sales records
+Search bar (search by invoice or purchaser)
+Add Sale button
+Edit/Delete buttons
+
+Show connection to Merchandise items included in the sale.
+
+3. Merchandise Screen
+
+Displays all store merchandise.
+
+Fields:
+
+ProductID
+Type
+Value
+Invoice #
+
+Interface:
+
+Merchandise table
+Add Product button
+Edit/Delete buttons
+Filter by type
+
+Show how merchandise connects to Sales records.
+
+4. Employees Screen
+
+Displays employee information.
+
+Fields:
+
+EmployeeID
+First Name
+Last Name
+Title
+Email
+Salary
+
+Interface:
+
+Employee list table
+Add Employee
+Edit/Delete
+
+Show that employees record Sales and accumulate Expenses.
+
+5. Expenses Screen
+
+Tracks store expenses.
+
+Fields:
+
+ExpenseID
+Date
+ExpenseType
+EmployeeID
+TotalPrice
+
+Interface:
+
+Expense table
+Add Expense button
+Filter by employee or date
+
+Show connection to Employees responsible for the expense.
