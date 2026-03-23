@@ -38,12 +38,12 @@ Show how users move between screens.
       - Screen for payments (total amount, payment method, payment status, etc.)
 
 ## Screen Transitions
-Examples:
-  Dashboard -> Products (click button)
-  Orders -> New Order -> Payment -> Confirmation
+- Examples:
+  - Dashboard -> Products (click button)
+  - Orders -> New Order -> Payment -> Confirmation
 
 ## Data Mapping
 Elements are connected to a database field.
-Examples:
-  Total Sales = Orders.TotalAmount
-  Orders Today = Orders.OrderDate
+- Examples:
+  - Total Sales = Orders.TotalAmount
+  - Orders Today = Orders.OrderDate
